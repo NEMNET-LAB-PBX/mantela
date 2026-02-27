@@ -1,0 +1,79 @@
+{
+  "$schema": "https://tkytel.github.io/mantela/0.1.x/mantela.schema.json",
+  "aboutMe": {
+    "identifier": "8fa08edd-26e4-4762-99b1-109607e0fc22",
+    "name": "NEMNET-LAB",
+    "preferredPrefix": [
+      "237"
+    ],
+    "unavailable": false,
+    "sipUri": [
+      "sip:SIP-TRUNK-CF92AD34:U1RiZW1jcEgrVmM9@100.91.49.106;transport=udp"
+    ],
+    "geolocationCoordinates": {
+      "accuracy": 0,
+      "altitude": 0,
+      "altitudeAccuracy": 0,
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  "extensions": [
+    {
+      "extension": "9001",
+      "identifier": "V57HB1LW",
+      "model": "",
+      "name": "固定電話",
+      "type": "pushphone",
+      "geolocationCoordinates": {
+        "accuracy": 0,
+        "altitude": 0,
+        "altitudeAccuracy": 0,
+        "latitude": 0,
+        "longitude": 0
+      }
+    },
+    {
+      "extension": "2001",
+      "identifier": "I16FS43Z",
+      "model": "",
+      "name": "iPhone SE 3Gen",
+      "type": "smartphone"
+    },
+    {
+      "extension": "1234",
+      "identifier": "953TULAH",
+      "model": "",
+      "name": "テスト番号",
+      "type": "music"
+    }
+  ],
+  "providers": [
+    {
+      "identifier": "5752ca4c-c828-4946-a8f3-7f8272206f2d",
+      "mantela": "https://da-tenshi.github.io/mantela.json",
+      "name": "SHINANOTEL",
+      "prefix": "661"
+    },
+    {
+      "identifier": "9ec68766-eca9-47fd-b4d8-d89d121d7c75",
+      "mantela": "https://da-tenshi.github.io/AMtel.json",
+      "name": "AM-TEL",
+      "prefix": "222"
+    },
+    {
+      "identifier": "bf979778-1d1f-4a33-abac-8cbc2f3dae91",
+      "mantela": "https://hkshuttle.github.io/tkytel/mantela.json",
+      "name": "sola-tel",
+      "prefix": "944"
+    },
+    {
+      "identifier": "41aca3d1-6882-4e4d-9651-5e52464902e7",
+      "mantela": "https://halka.jp/.well-known/mantela.json",
+      "name": "Goryokaku",
+      "prefix": "767",
+      "unavailable": true
+    }
+  ],
+  "version": "0.1.x"
+}
