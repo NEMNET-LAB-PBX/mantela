@@ -1,37 +1,37 @@
 {
   "$schema": "https://tkytel.github.io/mantela/0.1.x/mantela.schema.json",
   "aboutMe": {
-    "identifier": "8fa08edd-26e4-4762-99b1-109607e0fc22",
-    "name": "NEMNET-LAB",
-    "preferredPrefix": [
-      "237"
-    ],
-    "unavailable": false,
-    "sipUri": [
-      "sip:SIP-TRUNK-CF92AD34:U1RiZW1jcEgrVmM9@100.91.49.106;transport=udp"
-    ],
     "geolocationCoordinates": {
       "accuracy": 0,
       "altitude": 0,
       "altitudeAccuracy": 0,
       "latitude": 0,
       "longitude": 0
-    }
+    },
+    "identifier": "8fa08edd-26e4-4762-99b1-109607e0fc22",
+    "name": "NEMNET-LAB",
+    "preferredPrefix": [
+      "237"
+    ],
+    "sipUri": [
+      "sip:SIP-TRUNK-CF92AD34:U1RiZW1jcEgrVmM9@100.91.49.106;transport=udp"
+    ],
+    "unavailable": false
   },
   "extensions": [
     {
       "extension": "9001",
-      "identifier": "V57HB1LW",
-      "model": "",
-      "name": "固定電話",
-      "type": "pushphone",
       "geolocationCoordinates": {
         "accuracy": 0,
         "altitude": 0,
         "altitudeAccuracy": 0,
         "latitude": 0,
         "longitude": 0
-      }
+      },
+      "identifier": "V57HB1LW",
+      "model": "",
+      "name": "固定電話",
+      "type": "pushphone"
     },
     {
       "extension": "2001",
@@ -46,6 +46,20 @@
       "model": "",
       "name": "テスト番号",
       "type": "music"
+    },
+    {
+      "extension": "2004",
+      "identifier": "II9BTY0N",
+      "model": "Windows11",
+      "name": "パソコン",
+      "type": "other",
+      "geolocationCoordinates": {
+        "accuracy": 0,
+        "altitude": 0,
+        "altitudeAccuracy": 0,
+        "latitude": 0,
+        "longitude": 0
+      }
     }
   ],
   "providers": [
@@ -73,6 +87,19 @@
       "name": "Goryokaku",
       "prefix": "767",
       "unavailable": true
+    },
+    {
+      "identifier": "530251dc-0f93-4226-89c8-d71f900a1f0b",
+      "mantela": "https://tkytel-8931.f5.si/.well-known/mantela.json",
+      "name": "はくさい局",
+      "prefix": "891",
+      "unavailable": true
+    },
+    {
+      "identifier": "8fa08edd-26e4-4762-99b1-109607e0fc22",
+      "mantela": "https://nemnet-lab-pbx.github.io/mantela/mantela.json",
+      "name": "NEMNET-LAB",
+      "prefix": "237"
     }
   ],
   "version": "0.1.x"
