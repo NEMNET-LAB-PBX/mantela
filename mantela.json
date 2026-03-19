@@ -29,7 +29,7 @@
         "longitude": 0
       },
       "identifier": "V57HB1LW",
-      "model": "",
+      "model": "PHS各種 (Aterm WM56経由、気分でPHSを使い分ける)",
       "name": "固定電話",
       "type": "pushphone"
     },
@@ -49,17 +49,17 @@
     },
     {
       "extension": "2004",
-      "identifier": "II9BTY0N",
-      "model": "Windows11",
-      "name": "パソコン",
-      "type": "other",
       "geolocationCoordinates": {
         "accuracy": 0,
         "altitude": 0,
         "altitudeAccuracy": 0,
         "latitude": 0,
         "longitude": 0
-      }
+      },
+      "identifier": "II9BTY0N",
+      "model": "Windows11",
+      "name": "パソコン",
+      "type": "other"
     }
   ],
   "providers": [
@@ -100,6 +100,24 @@
       "mantela": "https://nemnet-lab-pbx.github.io/mantela/mantela.json",
       "name": "NEMNET-LAB",
       "prefix": "237"
+    },
+    {
+      "identifier": "",
+      "mantela": "",
+      "name": "NEMNET-LAB-Sapporo",
+      "prefix": "238"
+    },
+    {
+      "identifier": "3be47f94-3185-4198-ac3d-ca5ccb573cc2",
+      "mantela": "https://www.yude.jp.eu.org/.well-known/mantela.json",
+      "name": "yudetel",
+      "prefix": "390"
+    },
+    {
+      "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
+      "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json",
+      "name": "MikaNeTEL",
+      "prefix": "510"
     }
   ],
   "version": "0.1.x"
