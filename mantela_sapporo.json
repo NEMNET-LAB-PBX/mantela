@@ -1,0 +1,89 @@
+{
+  "$schema": "https://tkytel.github.io/mantela/0.1.x/mantela.schema.json",
+  "aboutMe": {
+    "geolocationCoordinates": {
+      "accuracy": 0,
+      "altitude": 0,
+      "altitudeAccuracy": 0,
+      "latitude": 0,
+      "longitude": 0
+    },
+    "identifier": "b45b51e4-307a-430e-8503-fe4f5b9672e8",
+    "name": "NEMNET-LAB-Sapporo",
+    "preferredPrefix": [
+      "238"
+    ],
+    "sipUri": [
+      "sip:SIP-TRUNK-E234D78F:2b210d71b617729a088d392b594d4f8f@nemnet-lab-rp01.taild4391c.ts.net"
+    ],
+    "unavailable": false
+  },
+  "extensions": [
+    {
+      "extension": "6001",
+      "geolocationCoordinates": {
+        "accuracy": 0,
+        "altitude": 0,
+        "altitudeAccuracy": 0,
+        "latitude": 0,
+        "longitude": 0
+      },
+      "identifier": "NAAAR49U",
+      "model": "不定",
+      "name": "User1",
+      "type": "smartphone"
+    },
+    {
+      "extension": "1234",
+      "identifier": "ALMO8CKL",
+      "model": "",
+      "name": "テスト番号",
+      "type": "music"
+    }
+  ],
+  "providers": [
+    {
+      "identifier": "5752ca4c-c828-4946-a8f3-7f8272206f2d",
+      "mantela": "https://da-tenshi.github.io/mantela.json",
+      "name": "SHINANOTEL",
+      "prefix": "661"
+    },
+    {
+      "identifier": "9ec68766-eca9-47fd-b4d8-d89d121d7c75",
+      "mantela": "https://da-tenshi.github.io/AMtel.json",
+      "name": "AM-TEL",
+      "prefix": "222"
+    },
+    {
+      "identifier": "bf979778-1d1f-4a33-abac-8cbc2f3dae91",
+      "mantela": "https://hkshuttle.github.io/tkytel/mantela.json",
+      "name": "sola-tel",
+      "prefix": "944"
+    },
+    {
+      "identifier": "8fa08edd-26e4-4762-99b1-109607e0fc22",
+      "mantela": "https://nemnet-lab-pbx.github.io/mantela/mantela.json",
+      "name": "NEMNET-LAB",
+      "prefix": "237"
+    },
+    {
+      "identifier": "",
+      "mantela": "",
+      "name": "NEMNET-LAB-Sapporo",
+      "prefix": "238"
+    },
+    {
+      "identifier": "3be47f94-3185-4198-ac3d-ca5ccb573cc2",
+      "mantela": "https://www.yude.jp.eu.org/.well-known/mantela.json",
+      "name": "yudetel",
+      "prefix": "390"
+    },
+    {
+      "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
+      "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json",
+      "name": "MikaNeTEL",
+      "prefix": "510"
+    }
+  ],
+  "version": "0.1.x"
+}
