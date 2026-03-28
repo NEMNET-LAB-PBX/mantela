@@ -60,6 +60,16 @@
       "model": "Windows11",
       "name": "パソコン",
       "type": "other"
+    },
+    {
+      "extension": "9999",
+      "identifier": "PLVZ5QEY",
+      "model": "",
+      "name": "ナビダイヤル",
+      "type": "alias",
+      "transferTo": [
+        "V57HB1LW"
+      ]
     }
   ],
   "providers": [
