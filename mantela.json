@@ -97,13 +97,13 @@
     {
       "identifier": "8fa08edd-26e4-4762-99b1-109607e0fc22",
       "mantela": "https://nemnet-lab-pbx.github.io/mantela/mantela.json",
-      "name": "NEMNET-LAB",
-      "prefix": "237"
+      "name": "みゅーと東京局",
+      "prefix": "0"
     },
     {
       "identifier": "b45b51e4-307a-430e-8503-fe4f5b9672e8",
       "mantela": "https://nemnet-lab-pbx.github.io/mantela/mantela_sapporo.json",
-      "name": "NEMNET-LAB-Sapporo",
+      "name": "みゅーと札幌局",
       "prefix": "238"
     },
     {
