@@ -29,9 +29,9 @@
         "longitude": 0
       },
       "identifier": "V57HB1LW",
-      "model": "PHS各種 (Aterm WM56経由、気分でPHSを使い分ける)",
-      "name": "固定電話",
-      "type": "pushphone"
+      "model": "NEC Carrity-NW PS8D",
+      "name": "PHS",
+      "type": "cellphone"
     },
     {
       "extension": "2001",
@@ -102,8 +102,8 @@
       "prefix": "237"
     },
     {
-      "identifier": "",
-      "mantela": "",
+      "identifier": "b45b51e4-307a-430e-8503-fe4f5b9672e8",
+      "mantela": "https://nemnet-lab-pbx.github.io/mantela/mantela_sapporo.json",
       "name": "NEMNET-LAB-Sapporo",
       "prefix": "238"
     },
@@ -118,6 +118,12 @@
       "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json",
       "name": "MikaNeTEL",
       "prefix": "510"
+    },
+    {
+      "identifier": "",
+      "mantela": "",
+      "name": "くらげ局",
+      "prefix": "495"
     }
   ],
   "version": "0.1.x"
