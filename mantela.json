@@ -66,10 +66,10 @@
       "identifier": "PLVZ5QEY",
       "model": "",
       "name": "ナビダイヤル",
-      "type": "alias",
       "transferTo": [
         "V57HB1LW"
-      ]
+      ],
+      "type": "alias"
     }
   ],
   "providers": [
@@ -133,6 +133,18 @@
       "mantela": "",
       "name": "くらげ局",
       "prefix": "495"
+    },
+    {
+      "identifier": "",
+      "mantela": "",
+      "name": "ここん局",
+      "prefix": "550"
+    },
+    {
+      "identifier": "31e54b78-fdf0-4733-aa6c-60b5a92bb3c0",
+      "mantela": "https://roiarise.github.io/mantela.json",
+      "name": "roi-tel",
+      "prefix": "732"
     }
   ],
   "version": "0.1.x"
