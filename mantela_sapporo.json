@@ -70,7 +70,8 @@
       "identifier": "b45b51e4-307a-430e-8503-fe4f5b9672e8",
       "mantela": "https://nemnet-lab-pbx.github.io/mantela/mantela_sapporo.json",
       "name": "みゅーと札幌局",
-      "prefix": "0"
+      "prefix": "0",
+      "unavailable": true
     },
     {
       "identifier": "3be47f94-3185-4198-ac3d-ca5ccb573cc2",
