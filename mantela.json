@@ -70,6 +70,13 @@
         "V57HB1LW"
       ],
       "type": "alias"
+    },
+    {
+      "extension": "117",
+      "identifier": "H00XCA2U",
+      "model": "",
+      "name": "時報",
+      "type": "information"
     }
   ],
   "providers": [
@@ -140,6 +147,12 @@
       "mantela": "https://roiarise.github.io/mantela.json",
       "name": "roi-tel",
       "prefix": "732"
+    },
+    {
+      "identifier": "402b0d3f-d499-4bf7-8ef0-bd25c1edd69a",
+      "mantela": "https://allianaab2m.github.io/mantela/mantela.json",
+      "name": "ab2m-ありあな局",
+      "prefix": "462"
     }
   ],
   "version": "0.1.x"
