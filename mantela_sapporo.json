@@ -78,6 +78,12 @@
       "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json",
       "name": "MikaNeTEL",
       "prefix": "510"
+    },
+    {
+      "identifier": "402b0d3f-d499-4bf7-8ef0-bd25c1edd69a",
+      "mantela": "https://allianaab2m.github.io/mantela/mantela.json",
+      "name": "ab2m-ありあな局",
+      "prefix": "462"
     }
   ],
   "version": "0.1.x"
