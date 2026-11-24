@@ -29,15 +29,15 @@
         "longitude": 0
       },
       "identifier": "V57HB1LW",
-      "model": "NEC Carrity-NW PS8D",
-      "name": "PHS",
-      "type": "cellphone"
+      "model": "NEC UNIVERGE AspireUX",
+      "name": "電話システム",
+      "type": "phone"
     },
     {
       "extension": "2001",
       "identifier": "I16FS43Z",
-      "model": "",
-      "name": "iPhone SE 3Gen",
+      "model": "iPhone SE Gen3",
+      "name": "iPhone SE(常時着信可能)",
       "type": "smartphone"
     },
     {
@@ -48,20 +48,6 @@
       "type": "music"
     },
     {
-      "extension": "2004",
-      "geolocationCoordinates": {
-        "accuracy": 0,
-        "altitude": 0,
-        "altitudeAccuracy": 0,
-        "latitude": 0,
-        "longitude": 0
-      },
-      "identifier": "II9BTY0N",
-      "model": "Windows11",
-      "name": "パソコン",
-      "type": "other"
-    },
-    {
       "extension": "9999",
       "identifier": "PLVZ5QEY",
       "model": "",
@@ -69,7 +55,14 @@
       "transferTo": [
         "V57HB1LW"
       ],
-      "type": "alias"
+      "type": "alias",
+      "geolocationCoordinates": {
+        "accuracy": 0,
+        "altitude": 0,
+        "altitudeAccuracy": 0,
+        "latitude": 0,
+        "longitude": 0
+      }
     },
     {
       "extension": "117",
@@ -77,6 +70,13 @@
       "model": "",
       "name": "時報",
       "type": "information"
+    },
+    {
+      "extension": "2002",
+      "identifier": "AZHL1ITD",
+      "model": "iPhone 17",
+      "name": "iPhone 17(常時着信可能)",
+      "type": "smartphone"
     }
   ],
   "providers": [
@@ -90,13 +90,15 @@
       "identifier": "9ec68766-eca9-47fd-b4d8-d89d121d7c75",
       "mantela": "https://da-tenshi.github.io/AMtel.json",
       "name": "AM-TEL",
-      "prefix": "222"
+      "prefix": "222",
+      "unavailable": true
     },
     {
       "identifier": "bf979778-1d1f-4a33-abac-8cbc2f3dae91",
       "mantela": "https://hkshuttle.github.io/tkytel/mantela.json",
       "name": "sola-tel",
-      "prefix": "944"
+      "prefix": "944",
+      "unavailable": false
     },
     {
       "identifier": "41aca3d1-6882-4e4d-9651-5e52464902e7",
@@ -112,35 +114,17 @@
       "prefix": "891"
     },
     {
-      "identifier": "8fa08edd-26e4-4762-99b1-109607e0fc22",
-      "mantela": "https://nemnet-lab-pbx.github.io/mantela/mantela.json",
-      "name": "みゅーと東京局",
-      "prefix": "0",
-      "unavailable": true
-    },
-    {
       "identifier": "b45b51e4-307a-430e-8503-fe4f5b9672e8",
       "mantela": "https://nemnet-lab-pbx.github.io/mantela/mantela_sapporo.json",
       "name": "みゅーと札幌局",
-      "prefix": "238"
+      "prefix": "238",
+      "unavailable": true
     },
     {
       "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
       "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json",
       "name": "MikaNeTEL",
       "prefix": "510"
-    },
-    {
-      "identifier": "",
-      "mantela": "",
-      "name": "くらげ局",
-      "prefix": "495"
-    },
-    {
-      "identifier": "",
-      "mantela": "",
-      "name": "ここん局",
-      "prefix": "550"
     },
     {
       "identifier": "31e54b78-fdf0-4733-aa6c-60b5a92bb3c0",
@@ -153,6 +137,24 @@
       "mantela": "https://allianaab2m.github.io/mantela/mantela.json",
       "name": "ab2m-ありあな局",
       "prefix": "462"
+    },
+    {
+      "identifier": "498a3211-0f85-42a7-b2c0-44fb7095bd67",
+      "mantela": "https://zin3.cc/.well-known/mantela.json",
+      "name": "zin3",
+      "prefix": "333"
+    },
+    {
+      "identifier": "",
+      "mantela": "",
+      "name": "livadenwa",
+      "prefix": "495"
+    },
+    {
+      "identifier": "8b741e2b-45f9-4187-9da1-05d866b79a09",
+      "mantela": "https://kimkim0106.net/.well-known/mantela.json",
+      "name": "kimkim0106",
+      "prefix": "106"
     }
   ],
   "version": "0.1.x"
